@@ -1,4 +1,4 @@
-// $(document).ready(function() {
+ $(document).ready(function() {
 
   // This function is for creating cards for each todo
   function createTodoElement(todoObject) {
@@ -105,7 +105,7 @@
         "</div>" +
       "<div>" ;
     }
-  }
+  });
 
   function appendCard(todoObject) {
     $(".movies").append(createTodoElement(todoObject));
